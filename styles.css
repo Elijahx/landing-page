@@ -89,7 +89,7 @@ img {
 body{
     display: flex;
     flex-direction: column;
-    
+    margin: 0px;
 }
 
 .section-two-images {
@@ -128,4 +128,31 @@ body{
 
 .text{
     background-color: white;
+}
+
+
+.blockquote--bordered {
+    background-color:#E5E7EB;
+    margin: auto;
+  
+}
+.blockquote-text{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding-inline: 100px;
+    padding-top: 25px;
+   
+
+}
+
+.blockquote-text--credit {
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding-bottom: 30px;
 }
