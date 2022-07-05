@@ -142,7 +142,7 @@ body{
     font-size: 36px;
     color: #1F2937;
     background-color: #E5E7EB;
-    padding-inline: 100px;
+    padding-inline: 200px;
     padding-top: 25px;
    
 
@@ -155,4 +155,60 @@ body{
     color: #1F2937;
     background-color: #E5E7EB;
     padding-bottom: 30px;
+}
+
+.container-section-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#F9FAF8;
+    padding: 60px;
+
+}
+
+.container-two, .section-four-title, .section-four-text, .sign-up-section-four {
+    
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+.section-four-title {
+    font-weight: bold;
+}
+
+.container-two {
+    display: flex;
+    padding: 36px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding-right: 100px;
+    padding-left: 50px;
+    
+}
+
+.latter,.sign-up-section-four {
+    background:#3882F6;
+    align-self: center;
+    justify-self: center;
+      
+}
+.former{
+    padding-inline: 60px;
+    background-color: #3882F6;
+}
+
+.sign-up-section-four {
+    border-color:#F9FAF8;
+    border-radius: 6px;
+}
+
+.footer-text {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    color:#F9FAF8;
+
 }
